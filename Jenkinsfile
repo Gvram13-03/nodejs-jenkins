@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/Gvram13-03/Jenkins_Node_App', branch: 'main'  // Update URL
+                git url: 'https://github.com/Gvram13-03/nodejs-jenkins', branch: 'main'  // Update URL
             }
         }
         stage('Install Dependencies') {
